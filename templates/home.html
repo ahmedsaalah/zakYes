@@ -311,8 +311,45 @@
             <div class="clearfix"></div>
         </div>
         <div id="top-user">
-
+            <div class="top-user-content logged">
+                <div class="logged-feed">
+                    <a onclick="get_notify()" href="javascript:void(0)" class="btn btn-logged btn-feed" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa icon-notifications"></i>
+                                    </a>
+                    <ul class="dropdown-menu" id="list-notify">
+                        <li id="notify-loading" class="cssload-center">
+                            <div class="cssload"><span></span></div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="logged-user open"><!-- Free User (remove class user-vip)-->
+                    <!--            <a href="#" class="user-class"><span class="uc-type"></span></a>-->
+                    <a href="https://yesmovies.to/user/profile.html" class="avatar user-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                            <img src="https://yesmovies.to/assets/images/default_avatar.jpg">
+                                    </a>
+                    <ul class="dropdown-menu">
+                        <!--                <li class="pre-active">-->
+                        <!--                    <a href="#">Free User <span class="exp">Upgrade Premium</span></a>-->
+                        <!--                </li>-->
+                        <li><a href="https://yesmovies.to/user/profile.html"><i class="icon-face mr5"></i> My page</a></li>
+                        <li><a href="https://yesmovies.to/user/movies/favorite.html"><i class="icon-favorite_outline mr5"></i>
+                                My movies</a>
+                        </li>
+                        <li><a href="https://yesmovies.to/user/update.html"><i class="icon-edit mr5"></i> Update profile</a>
+                        </li>
+                        <li><a href="https://yesmovies.to/ajax/user_logout.html"><i class="icon-exit_to_app mr5"></i>
+                                Logout</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
+        <!-- div id="top-user">
+            <div class="top-user-content guest">
+                <a href="javascript:void(0)" class="guest-login" title="Login" data-target="#pop-auth" data-toggle="modal">
+                    <i class="icon-profile27"></i> LOGIN
+                </a>
+            </div>
+        </div -->
         <div id="search">
             <div class="search-content">
                 <input autocomplete="off" name="keyword" type="text" class="form-control search-input"
