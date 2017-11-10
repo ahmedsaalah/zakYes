@@ -16,7 +16,7 @@ app =Flask(__name__)
 @app.route('/')
 def HomePage():
         
-    return render_template('movie.html' )
+    return render_template('items.html' )
 
 
 @app.route('/yes.html')
