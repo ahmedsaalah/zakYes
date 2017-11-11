@@ -1,0 +1,568 @@
+{% extends "base.html" %}
+ {% block content %}
+
+<div class="header-pad"></div>
+    <!--/header-->
+    <!-- main -->
+    <div id="main" class="page-detail">
+    <div class="page-cover" style="background-image: url('https://img.yescdn.ru/2017/10/31/cover/f29ac1ac05de3abb932e583fc8edcb8a-jigsaw.jpg')"></div>
+    <div class="container">
+        <div class="pad"></div>
+        <div class="main-content main-detail ">
+            <div class="md-top">
+                <div id="bread">
+                    <ol class="breadcrumb" itemtype="http://schema.org/BreadcrumbList" itemscope="">
+                        <li itemtype="http://schema.org/ListItem" itemscope="" itemprop="itemListElement">
+                            <a itemprop="item" title="Home" href="https://yesmovies.to/">
+                                <span itemprop="name">Home</span>
+                            </a>
+                        </li>
+                        <li itemtype="http://schema.org/ListItem" itemscope="" itemprop="itemListElement">
+                                                        <a itemprop="item" title="Movies" href="https://yesmovies.to/movie/filter/movie.html">
+                                <span itemprop="name">Movies</span>
+                            </a>
+                        </li>
+                        <li itemtype="http://schema.org/ListItem" itemscope="" itemprop="itemListElement"
+                            class="active">
+                            <span itemprop="name">Jigsaw</span>
+                        </li>
+                    </ol>
+                </div>
+                <div id="mv-info">
+                    <div class="mvi-content">
+                        <div class="btn-watch-area">
+                            <div class="bwa-content">
+                                <div class="loader"></div>
+                                <a href="https://yesmovies.to/movie/jigsaw-22505/watching.html" class="bwac-btn"
+                                   title="Click to play">
+                                    <i class="fa fa-play"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="mvic-desc">
+                            <div class="mvic-stats">
+                                <div class="block-fav" id="btn-favorite">
+                                    <a onclick="favorite(22505,'detail')" class="btn-favorite"
+                                       href="javascript:void(0)" title="Add to favorite"><i
+                                                class="icon-favorite"></i> Favorite</a>
+                                </div>
+                                <div class="block-view">
+                                    <i class="icon-remove_red_eye"></i> 69,168 views
+                                </div>
+                                <div class="block-trailer">
+                                    <a data-target="#pop-trailer" data-toggle="modal">
+                                        <i class="icon-videocam"></i> Watch trailer
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="detail-mod">
+                                <div class="dm-thumb"><img src="https://img.yescdn.ru/2017/10/31/poster/b6a9a2cf10c6905eb4e22a70d24f89c9-jigsaw.jpg"
+                                                           title="Jigsaw" alt="Jigsaw">
+                                </div>
+                                <h3>Jigsaw</h3>
+                                <div class="mv-rating" itemtype="http://data-vocabulary.org/Review-aggregate"
+                                     itemscope=""></div>
+                                <div class="mobile-btn">
+                                    <a class="mod-btn" data-target="#pop-trailer" data-toggle="modal">Trailer</a>
+                                    <a class="mod-btn mod-btn-watch"
+                                       href="https://yesmovies.to/movie/jigsaw-22505/watching.html"
+                                       title="Watch movie"><i class="fa fa-play mr5"></i> Watch movie</a>
+                                </div>
+                                <div class="mobile-view"><i
+                                            class="icon-remove_red_eye"></i> 69,168 views
+                                </div>
+                            </div>
+                            <div class="block-social">
+                                <!-- Go to www.addthis.com/dashboard to customize your tools -->
+                                <div class="addthis_inline_share_toolbox"></div>
+                            </div>
+                            <div class="desc">
+                                A decade after the death of Jigsaw, bodies are turning up around the city again. Is John Kramer back from the dead to remind the world to be grateful for the gift of life? Or is this a trap set by a killer with designs of their own?                            </div>
+                            <div class="mvic-info">
+                                <div class="mvici-left">
+                                                                            <p><strong>Genres: </strong><a href="https://yesmovies.to/genre/crime.html" title="Crime">Crime</a>, <a href="https://yesmovies.to/genre/mystery.html" title="Mystery">Mystery</a>, <a href="https://yesmovies.to/genre/horror.html" title="Horror">Horror</a></p>
+                                                                                                                <p><strong>Actors: </strong><a href="https://yesmovies.to/actor/matt-passmore.html" title="Matt Passmore">Matt Passmore</a>, <a href="https://yesmovies.to/actor/tobin-bell.html" title="Tobin Bell">Tobin Bell</a>, <a href="https://yesmovies.to/actor/callum-keith-rennie.html" title="Callum Keith Rennie">Callum Keith Rennie</a></p>
+                                                                                                                <p><strong>Directors: </strong><a href="#" title="Michael Spierig">Michael Spierig</a>, <a href="#" title="Peter Spierig">Peter Spierig</a></p>
+                                                                                                                <p><strong>Country: </strong><a href="https://yesmovies.to/country/united-states.html" title="United States">United States</a></p>
+                                                                    </div>
+                                <div class="mvici-right">
+                                                                        <p><strong>Duration:</strong> 91 min</p>
+                                    <p><strong>Quality:</strong> <span class="quality">CAM</span></p>
+                                    <p><strong>Release:</strong> 2017</p>
+                                    <p><strong>IMDb:</strong> 6.3</p>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <!-- keywords -->
+                                                            <div id="mv-keywords">
+                                    <strong class="mr10">Keywords:</strong>
+                                    <a target="_blank" href="https://yesmovies.to/tags/jigsaw.html" title="Jigsaw"><h5>Jigsaw</h5></a><a target="_blank" href="https://yesmovies.to/tags/matt-passmore.html" title="Matt Passmore"><h5>Matt Passmore</h5></a><a target="_blank" href="https://yesmovies.to/tags/tobin-bell.html" title="Tobin Bell"><h5>Tobin Bell</h5></a><a target="_blank" href="https://yesmovies.to/tags/callum-keith-rennie.html" title="Callum Keith Rennie"><h5>Callum Keith Rennie</h5></a><a target="_blank" href="https://yesmovies.to/tags/michael-spierig.html" title="Michael Spierig"><h5>Michael Spierig</h5></a><a target="_blank" href="https://yesmovies.to/tags/peter-spierig.html" title="Peter Spierig"><h5>Peter Spierig</h5></a>                                </div>
+                                                    </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+<!--            <div class="content-kusss" style="text-align: center; margin: 20px 0; padding: 15px;">-->
+<!--                <iframe src="https://creative.wwwpromoter.com/37163?d=728x90" width="728" height="90"-->
+<!--                        style="border: none;" frameborder="0" scrolling="no"></iframe>-->
+<!--            </div>-->
+            <!--related-->
+            <div class="movies-list-wrap mlw-related">
+                <div class="ml-title ml-title-page">
+                    <span>You May Also Like</span>
+                </div>
+                <div id="movies-related" class="movies-list movies-list-full">
+                            <div class="ml-item">
+            <a href="https://yesmovies.to/movie/document-of-the-dead-2739.html" class="ml-mask" title="Document Of The Dead"
+               data-url="ajax/movie_info/2739.html">
+                                    <span class="mli-quality">HD</span>
+                                <img class="thumb mli-thumb lazy" title="Document Of The Dead" alt="Document Of The Dead"
+                     data-original="https://img.yescdn.ru/2016/03/10/poster/697d91c6a82132baeefb4b8fd3ac0677-document-of-the-dead.jpg">
+                <span class="mli-info">
+            <h2>Document Of The Dead</h2>
+        </span>
+            </a>
+        </div>
+            <div class="ml-item">
+            <a href="https://yesmovies.to/movie/i-saw-what-you-did-14962.html" class="ml-mask" title="I Saw What You Did"
+               data-url="ajax/movie_info/14962.html">
+                                    <span class="mli-quality">HD</span>
+                                <img class="thumb mli-thumb lazy" title="I Saw What You Did" alt="I Saw What You Did"
+                     data-original="https://img.yescdn.ru/2016/07/31/poster/aada1f588e5c0f8082ccb69e8f02f4c7-i-saw-what-you-did-1470026837.jpg">
+                <span class="mli-info">
+            <h2>I Saw What You Did</h2>
+        </span>
+            </a>
+        </div>
+            <div class="ml-item">
+            <a href="https://yesmovies.to/movie/mystery-road-2317.html" class="ml-mask" title="Mystery Road"
+               data-url="ajax/movie_info/2317.html">
+                                    <span class="mli-quality">HD</span>
+                                <img class="thumb mli-thumb lazy" title="Mystery Road" alt="Mystery Road"
+                     data-original="https://img.yescdn.ru/2016/03/07/poster/b7f52d2b7cb317649c3a63cb95623296-mystery-road.jpg">
+                <span class="mli-info">
+            <h2>Mystery Road</h2>
+        </span>
+            </a>
+        </div>
+            <div class="ml-item">
+            <a href="https://yesmovies.to/movie/witchery-15273.html" class="ml-mask" title="Witchery"
+               data-url="ajax/movie_info/15273.html">
+                                    <span class="mli-quality">HD</span>
+                                <img class="thumb mli-thumb lazy" title="Witchery" alt="Witchery"
+                     data-original="https://img.yescdn.ru/2016/08/10/poster/33aa82ea3bdd49bfa1ab664b3ba179f2-witchery-1470870034.jpg">
+                <span class="mli-info">
+            <h2>Witchery</h2>
+        </span>
+            </a>
+        </div>
+            <div class="ml-item">
+            <a href="https://yesmovies.to/movie/night-crawlers-17384.html" class="ml-mask" title="Night Crawlers"
+               data-url="ajax/movie_info/17384.html">
+                                    <span class="mli-quality">HD</span>
+                                <img class="thumb mli-thumb lazy" title="Night Crawlers" alt="Night Crawlers"
+                     data-original="https://img.yescdn.ru/2016/10/24/poster/7a96a8c8c8079a2477257c03d39487be-night-crawlers.jpg">
+                <span class="mli-info">
+            <h2>Night Crawlers</h2>
+        </span>
+            </a>
+        </div>
+            <div class="ml-item">
+            <a href="https://yesmovies.to/movie/the-last-seduction-5170.html" class="ml-mask" title="The Last Seduction"
+               data-url="ajax/movie_info/5170.html">
+                                    <span class="mli-quality">HD</span>
+                                <img class="thumb mli-thumb lazy" title="The Last Seduction" alt="The Last Seduction"
+                     data-original="https://img.yescdn.ru/2015/08/21/film/The-Last-Seduction.jpg">
+                <span class="mli-info">
+            <h2>The Last Seduction</h2>
+        </span>
+            </a>
+        </div>
+            <div class="ml-item">
+            <a href="https://yesmovies.to/movie/granny-of-the-dead-21312.html" class="ml-mask" title="Granny of the Dead"
+               data-url="ajax/movie_info/21312.html">
+                                    <span class="mli-quality">HD</span>
+                                <img class="thumb mli-thumb lazy" title="Granny of the Dead" alt="Granny of the Dead"
+                     data-original="https://img.yescdn.ru/2017/07/14/poster/923716c36f6a9d400b7ae5382c74d827-granny-of-the-dead.jpg">
+                <span class="mli-info">
+            <h2>Granny of the Dead</h2>
+        </span>
+            </a>
+        </div>
+            <div class="ml-item">
+            <a href="https://yesmovies.to/movie/the-battery-11920.html" class="ml-mask" title="The Battery"
+               data-url="ajax/movie_info/11920.html">
+                                    <span class="mli-quality">HD</span>
+                                <img class="thumb mli-thumb lazy" title="The Battery" alt="The Battery"
+                     data-original="https://img.yescdn.ru/2016/05/02/poster/4643e670fb2d73811972b902e37519ae-the-battery.jpg">
+                <span class="mli-info">
+            <h2>The Battery</h2>
+        </span>
+            </a>
+        </div>
+            <div class="ml-item">
+            <a href="https://yesmovies.to/movie/killbillies-16997.html" class="ml-mask" title="Killbillies"
+               data-url="ajax/movie_info/16997.html">
+                                    <span class="mli-quality">SD</span>
+                                <img class="thumb mli-thumb lazy" title="Killbillies" alt="Killbillies"
+                     data-original="https://img.yescdn.ru/2016/10/09/poster/8a7ee7f370c7bd84786ac38bd683cf16-killbillies.jpg">
+                <span class="mli-info">
+            <h2>Killbillies</h2>
+        </span>
+            </a>
+        </div>
+            <div class="ml-item">
+            <a href="https://yesmovies.to/movie/alp-19590.html" class="ml-mask" title="Alp"
+               data-url="ajax/movie_info/19590.html">
+                                    <span class="mli-quality">HD</span>
+                                <img class="thumb mli-thumb lazy" title="Alp" alt="Alp"
+                     data-original="https://img.yescdn.ru/2017/02/24/poster/a55712091f4fc45d48625bdf6ca8fff8-alp.jpg">
+                <span class="mli-info">
+            <h2>Alp</h2>
+        </span>
+            </a>
+        </div>
+            <div class="ml-item">
+            <a href="https://yesmovies.to/movie/the-story-of-the-kelly-gang-16548.html" class="ml-mask" title="The Story of the Kelly Gang"
+               data-url="ajax/movie_info/16548.html">
+                                    <span class="mli-quality">HD</span>
+                                <img class="thumb mli-thumb lazy" title="The Story of the Kelly Gang" alt="The Story of the Kelly Gang"
+                     data-original="https://img.yescdn.ru/2016/09/22/poster/a3ae35c41f429ae000f582cb47656f72-the-story-of-the-kelly-gang-1474530241.jpg">
+                <span class="mli-info">
+            <h2>The Story of the Kelly Gang</h2>
+        </span>
+            </a>
+        </div>
+            <div class="ml-item">
+            <a href="https://yesmovies.to/movie/batman-year-one-14025.html" class="ml-mask" title="Batman: Year One"
+               data-url="ajax/movie_info/14025.html">
+                                    <span class="mli-quality">HD</span>
+                                <img class="thumb mli-thumb lazy" title="Batman: Year One" alt="Batman: Year One"
+                     data-original="https://img.yescdn.ru/2016/07/02/poster/7938a281d258b698f77efab250773839-batman-year-one-1467445149.jpeg">
+                <span class="mli-info">
+            <h2>Batman: Year One</h2>
+        </span>
+            </a>
+        </div>
+            <div class="ml-item">
+            <a href="https://yesmovies.to/movie/survivor-2015-3640.html" class="ml-mask" title="Survivor 2015"
+               data-url="ajax/movie_info/3640.html">
+                                    <span class="mli-quality">HD</span>
+                                <img class="thumb mli-thumb lazy" title="Survivor 2015" alt="Survivor 2015"
+                     data-original="https://img.yescdn.ru/2015/07/12/film/Survivor-2015.png">
+                <span class="mli-info">
+            <h2>Survivor 2015</h2>
+        </span>
+            </a>
+        </div>
+            <div class="ml-item">
+            <a href="https://yesmovies.to/movie/p2-6171.html" class="ml-mask" title="P2"
+               data-url="ajax/movie_info/6171.html">
+                                    <span class="mli-quality">HD</span>
+                                <img class="thumb mli-thumb lazy" title="P2" alt="P2"
+                     data-original="https://img.yescdn.ru/2015/10/27/poster/P2%201.jpg">
+                <span class="mli-info">
+            <h2>P2</h2>
+        </span>
+            </a>
+        </div>
+            <div class="ml-item">
+            <a href="https://yesmovies.to/movie/night-and-the-city-15552.html" class="ml-mask" title="Night and the City"
+               data-url="ajax/movie_info/15552.html">
+                                    <span class="mli-quality">HD</span>
+                                <img class="thumb mli-thumb lazy" title="Night and the City" alt="Night and the City"
+                     data-original="https://img.yescdn.ru/2016/08/20/poster/174e4d0eafe8909db66309c62fc9cbb6-night-and-the-city-1471690004.jpg">
+                <span class="mli-info">
+            <h2>Night and the City</h2>
+        </span>
+            </a>
+        </div>
+            <div class="ml-item">
+            <a href="https://yesmovies.to/movie/in-bruges-15669.html" class="ml-mask" title="In Bruges"
+               data-url="ajax/movie_info/15669.html">
+                                    <span class="mli-quality">HD</span>
+                                <img class="thumb mli-thumb lazy" title="In Bruges" alt="In Bruges"
+                     data-original="https://img.yescdn.ru/2016/08/25/poster/e1e4cd122da8aba09f24337b3e1b0ba0-in-bruges-1472166619.jpg">
+                <span class="mli-info">
+            <h2>In Bruges</h2>
+        </span>
+            </a>
+        </div>
+    <script type="text/javascript">
+    $(document).ready(function () {
+        if (!jQuery.browser.mobile) {
+            initQtip();
+        }
+        $("img.lazy").lazyload({
+            effect: "fadeIn"
+        });
+    });
+</script>
+                </div>
+            </div>
+            <!--/related-->
+        </div>
+    </div>
+</div>
+<div class="modal fade modal-cuz modal-trailer" id="pop-trailer" tabindex="-1" role="dialog"
+     aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fa fa-close"></i>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">Trailer: Jigsaw</h4>
+            </div>
+            <div class="modal-body">
+                <div class="modal-body-trailer">
+                    <iframe id="iframe-trailer" width="100%" height="315" src=""
+                            frameborder="0"
+                            allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    var movie = {
+        id: "22505",
+        name: "Jigsaw",
+        slug: "jigsaw",
+        type: "movie",
+        trailer: "https://www.youtube.com/embed/vPP6aIw1vgY"
+    };
+    $(document).ready(function () {
+        //movie_quick_play();
+        movie_rate_info();
+        setTimeout(function () {
+            movie_update_view();
+        }, 2000);
+        setTimeout(function () {
+            if (is_login) {
+                movie_check_favorite('detail');
+            }
+        }, 1000);
+    });
+</script>
+    <!--/main -->
+    <!--footer-->
+    <footer>
+    <div id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-1 footer-block1"></div>
+                <div class="col-sm-2 footer-block footer-block2">
+                    <p><a title="Action" href="https://yesmovies.to/genre/action.html">Action</a></p>
+                    <p><a title="Adventure" href="https://yesmovies.to/genre/adventure.html">Adventure</a></p>
+                    <p><a title="Animation" href="https://yesmovies.to/genre/animation.html">Animation</a></p>
+                    <p><a title="Biography" href="https://yesmovies.to/genre/biography.html">Biography</a></p>
+                    <p><a title="Comedy" href="https://yesmovies.to/genre/comedy.html">Comedy</a></p>
+                    <p><a title="Costume" href="https://yesmovies.to/genre/costume.html">Costume</a></p>
+                    <p><a title="Crime" href="https://yesmovies.to/genre/crime.html">Crime</a></p>
+                </div>
+                <div class="col-sm-2 footer-block footer-block3">
+                    <p><a title="Documentary" href="https://yesmovies.to/genre/documentary.html">Documentary</a></p>
+                    <p><a title="Drama" href="https://yesmovies.to/genre/drama.html">Drama</a></p>
+                    <p><a title="Family" href="https://yesmovies.to/genre/family.html">Family</a></p>
+                    <p><a title="Fantasy" href="https://yesmovies.to/genre/fantasy.html">Fantasy</a></p>
+                    <p><a title="History" href="https://yesmovies.to/genre/history.html">History</a></p>
+                    <p><a title="Horror" href="https://yesmovies.to/genre/horror.html">Horror</a></p>
+                    <p><a title="Kungfu" href="https://yesmovies.to/genre/kungfu.html">Kungfu</a></p>
+                </div>
+                <div class="col-sm-2 footer-block footer-block4">
+                    <p><a title="Musical" href="https://yesmovies.to/genre/musical.html">Musical</a></p>
+                    <p><a title="Mystery" href="https://yesmovies.to/genre/mystery.html">Mystery</a></p>
+                    <p><a title="Mythological" href="https://yesmovies.to/genre/mythological.html">Mythological</a></p>
+                    <p><a title="Psychological" href="https://yesmovies.to/genre/psychological.html">Psychological</a>
+                    </p>
+                    <p><a title="Romance" href="https://yesmovies.to/genre/romance.html">Romance</a></p>
+                    <p><a title="Sci-Fi" href="https://yesmovies.to/genre/sci-fi.html">Sci-Fi</a></p>
+                    <p><a title="Sitcom" href="https://yesmovies.to/genre/sitcom.html">Sitcom</a></p>
+                </div>
+                <div class="col-sm-2 footer-block footer-block5">
+                    <p><a title="Sport" href="https://yesmovies.to/genre/sport.html">Sport</a></p>
+                    <p><a title="Thriller" href="https://yesmovies.to/genre/thriller.html">Thriller</a></p>
+                    <p><a title="TV-Show" href="https://yesmovies.to/genre/tv-show.html">TV-Show</a></p>
+                    <p><a title="War" href="https://yesmovies.to/genre/war.html">War</a></p>
+                    <p><a title="United States" href="https://yesmovies.to/country/united-states.html">United
+                            States</a></p>
+                    <p><a title="Korea" href="https://yesmovies.to/country/korea.html">Korea</a></p>
+                    <p><a title="Japan" href="https://yesmovies.to/country/japan.html">Japan</a></p>
+                </div>
+                <div class="col-sm-2 footer-block footer-block6">
+                    <p><a title="HongKong" href="https://yesmovies.to/country/hongkong.html">HongKong</a></p>
+                    <p><a title="France" href="https://yesmovies.to/country/france.html">France</a></p>
+                    <p><a title="Asia" href="https://yesmovies.to/country/asia.html">Asia</a></p>
+                    <p><a title="Thailand" href="https://yesmovies.to/country/thailand.html">Thailand</a></p>
+                    <p><a title="United Kingdom" href="https://yesmovies.to/country/united-kingdom.html">United
+                            Kingdom</a></p>
+                    <p><a title="India" href="https://yesmovies.to/country/india.html">India</a></p>
+                    <p><a title="International"
+                          href="https://yesmovies.to/country/international.html">International</a></p>
+                </div>
+                <div class="col-sm-1 footer-block7"></div>
+                <div class="clearfix"></div>
+            </div>
+            <div id="copyright">
+                <p><img alt="yesmovies.to" border="0" src="https://yesmovies.to/assets/images/logo-footer.png"
+                        class="mv-ft-logo"></p>
+                <p>Copyright &copy; <a href="https://yesmovies.to/" title="yesmovies.to">Yesmovies.to</a>. All Rights
+                    Reserved</p>
+                <p style="font-size: 11px; line-height: 14px;">Disclaimer: This site does not store any files on its
+                    server. All contents are provided by non-affiliated third parties.</p>
+            </div>
+            <div id="footer-social">
+                <a href="#" class="fs-icon fs-facebook"><i class="fa fa-facebook"></i></a>
+                <a href="#" class="fs-icon fs-twitter"><i class="fa fa-twitter"></i></a>
+                <a href="#" class="fs-icon fs-google"><i class="fa fa-google-plus"></i></a>
+            </div>
+            <div id="footer-menu">
+                <a href="https://yesmovies.to/terms.html" title="Privacy Policy">Terms & Privacy Policy</a>
+                <a href="https://yesmovies.to/dmca.html" title="DMCA">DMCA</a>
+            </div>
+        </div>
+        <div class="footer-tl text-center mt5" style="font-size:8px; line-height: 1.1em;">
+            <style>.footer-tl a {
+                    color: #232122;
+                }</style>
+            <a href="https://gostream.is/" class="mr10" title="123movies">123movies</a>
+        </div>
+    </div>
+</footer>
+    <!--/footer-->
+</div>
+<div class="clearfix"></div>
+<div id="auth-modal">
+    <!-- Modal -->
+    <div class="modal fade modal-cuz" id="pop-auth" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-tabs">
+                <ul id="md-list" class="nav nav-tabs" role="tablist">
+                    <li class="active"><a id="tab-login" href="#modal-login" role="tab" data-toggle="tab"><i
+                                    class="icon-perm_identity mr5"></i><strong>Login</strong></a></li>
+                    <li><a id="tab-register" href="#modal-register" role="tab" data-toggle="tab"><i
+                                    class="icon-add_circle_outline mr5"></i><strong>Register</strong></a></li>
+                    <li class="pull-right"><a class="close" data-dismiss="modal" aria-label="Close"><i
+                                    class="icon-clear"></i></a></li>
+                </ul>
+            </div>
+            <div class="modal-content tab-content">
+                <div id="modal-login" class="tab-pane in fade active">
+                    <div class="modal-body">
+                        <!--                        <div class="cuz-login-social">-->
+                        <!--                            <p class="desc text-center">Log in with your Facebook account.</p>-->
+                        <!--                            <div class="cls-list mt10">-->
+                        <!--                                <a href="-->
+                        <? //= site_url('user/login_fb?return_url=' . current_url()) ?><!--"-->
+                        <!--                                   class="btn btn-block btn-facebook"><i-->
+                        <!--                                        class="fa fa-facebook-square mr10"></i>Facebook</a>-->
+                        <!--                                <a href="-->
+                        <? //= site_url('user/login_gg?return_url=' . current_url()) ?><!--"-->
+                        <!--                                   class="btn btn-block btn-google"><i class="fa fa-google-plus-square mr10"></i>Google+</a>-->
+                        <!--                                <div class="clearfix"></div>-->
+                        <!--                            </div>-->
+                        <!--                        </div>-->
+                        <!--                        <p class="desc text-center mb10">- Or use your Yesmovies account.</p>-->
+                        <form id="login-form" method="post">
+                            <div class="block">
+                                <input required type="text" class="form-control" name="username" id="username"
+                                       placeholder="Username">
+                            </div>
+                            <div class="block mt10">
+                                <input required type="password" class="form-control" name="password" id="password"
+                                       placeholder="Password">
+                            </div>
+                            <div class="alert alert-danger error-message" id="error-message"></div>
+                            <div class="block mt20 small">
+                                <label><input type="checkbox" class="mr5"> Remember me</label>
+                                <div class="pull-right">
+                                    <a data-toggle="tab" id="open-forgot"
+                                       href="#modal-forgot"
+                                       title="Forgot password?">Forgot password?</a>
+                                </div>
+                            </div>
+                            <button type="submit" id="login-submit" class="btn btn-block btn-success btn-approve mt10">
+                                Login
+                            </button>
+                            <div style="display: none;" id="login-loading" class="cssload-center">
+                                <div class="cssload"><span></span></div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer text-center">
+                        Not a member yet? <a id="toggle-register" title="Join now!"><strong>Join now!</strong></a>
+                    </div>
+                </div>
+                <div id="modal-register" class="tab-pane in fade">
+                    <div class="modal-body">
+                        <p class="desc">When becoming members of the site, you could use the full range of functions and
+                            enjoy the most exciting films.</p>
+                        <form id="register-form" method="post">
+                            <div class="block">
+                                <input required type="text" class="form-control" name="full_name" id="full_name"
+                                       placeholder="Full name">
+                            </div>
+                            <div id="error-full_name" class="alert alert-danger error-message"></div>
+                            <div class="block">
+                                <input required type="text" class="form-control" name="username" id="username"
+                                       placeholder="Username">
+                            </div>
+                            <div id="error-username" class="alert alert-danger error-message"></div>
+                            <div class="block">
+                                <input required type="email" class="form-control" name="email" id="email"
+                                       placeholder="Email">
+                            </div>
+                            <div id="error-email" class="alert alert-danger error-message"></div>
+                            <div class="block">
+                                <input required type="password" class="form-control" name="password" id="password"
+                                       placeholder="Password">
+                            </div>
+                            <div id="error-password" class="alert alert-danger error-message"></div>
+                            <div class="block">
+                                <input required type="password" class="form-control" name="confirm_password"
+                                       id="confirm_password"
+                                       placeholder="Confirm Password">
+                            </div>
+                            <div id="error-confirm_password" class="alert alert-danger error-message"></div>
+                            <button id="register-submit" type="submit"
+                                    class="btn btn-block btn-success btn-approve mt20">Register
+                            </button>
+                            <div style="display: none;" id="register-loading" class="cssload-center">
+                                <div class="cssload"><span></span></div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer text-center">
+                        <a href="javascript:void(0)" id="toggle-login" title="Back to login"><i
+                                    class="fa fa-chevron-left mr10"></i> Back to login</a>
+                    </div>
+                </div>
+                <div id="modal-forgot" class="tab-pane in fade">
+                    <div class="modal-body">
+                        <p class="desc">We will send authorize code to your email. Please fill your email to form
+                            below.</p>
+                        <form id="forgot-form">
+                            <div class="block mt10">
+                                <input type="email" class="form-control" name="email" id="Email"
+                                       placeholder="Your email">
+                            </div>
+                            <div style="display: none;" id="forgot-success-message" class="alert alert-success"></div>
+                            <div style="display: none;" id="forgot-error-message" class="alert alert-danger"></div>
+                            <button id="forgot-submit" type="submit" class="btn btn-block btn-success btn-approve mt20">
+                                Submit
+                            </button>
+                        </form>
+                    </div>
+                    <div class="modal-footer text-center">
+                        <a data-toggle="tab" href="#modal-login" title="Back to login">
+                            <i class="fa fa-chevron-left mr10"></i> Back to login
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {% endblock %}

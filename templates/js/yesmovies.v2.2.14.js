@@ -305,12 +305,12 @@ eval(function(e, t, a, s, i, o) {
                 $(".modal:visible").each(e)
             })
         }), $("#slider").length > 0) {
-        new Swiper("#slider", {
-            pagination: ".swiper-pagination",
-            paginationClickable: !0,
-            loop: !0,
-            autoplay: 4e3
-        })
+        // new Swiper("#slider", {
+        //     pagination: ".swiper-paginatiSwiperon",
+        //     paginationClickable: !0,
+        //     loop: !0,
+        //     autoplay: 4e3
+        // })
     }
     $(".xlist, .pw-comment .content").perfectScrollbar(), $("#pop-trailer").on("shown.bs.modal", function() {
         $("#iframe-trailer").attr("src", movie.trailer)

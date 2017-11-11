@@ -19,6 +19,20 @@ def HomePage():
     return render_template('items.html' )
 
 
+''' Views  '''
+@app.route('/details')
+def Details():
+        
+    return render_template('details.html' )
+
+
+@app.route('/player')
+def Player():
+        
+    return render_template('player.html' )
+
+
+
 @app.route('/yes.html')
 def Genre():
     
